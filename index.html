@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slash30Net-Blog</title>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400,700&display=swap">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
+            color: #444;
+            line-height: 1.6;
         }
         header {
             background-color: #333;
@@ -18,9 +21,9 @@
             text-align: center;
         }
         nav {
-            background-color: #666;
+            background-color: #444;
             color: #fff;
-            padding: 10px;
+            padding: 10px 0;
             text-align: center;
         }
         nav ul {
@@ -30,27 +33,45 @@
         }
         nav ul li {
             display: inline;
-            margin-right: 10px;
+            margin-right: 20px;
         }
         main {
             padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
         article {
             background-color: #fff;
             padding: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            width: calc(50% - 20px);
+            transition: all 0.3s ease;
+        }
+        article:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
         }
         h2 {
             color: #333;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 20px;
         }
         footer {
             background-color: #333;
             color: #fff;
-            padding: 10px;
+            padding: 20px;
             text-align: center;
+            width: 100%;
             position: fixed;
             bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
@@ -68,16 +89,18 @@
     <main>
         <article>
             <h2>Post Title</h2>
-            <p>Post content goes here...</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nisi sit amet nunc lacinia, nec venenatis dui tincidunt.</p>
+            <a href="#" style="color: #333; text-decoration: none; font-weight: bold;">Read more</a>
         </article>
         <article>
             <h2>Another Post Title</h2>
-            <p>Another post content goes here...</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nisi sit amet nunc lacinia, nec venenatis dui tincidunt.</p>
+            <a href="#" style="color: #333; text-decoration: none; font-weight: bold;">Read more</a>
         </article>
+        <!-- Add more articles as needed -->
     </main>
     <footer>
         &copy; 2024 My Blog
     </footer>
 </body>
 </html>
-
