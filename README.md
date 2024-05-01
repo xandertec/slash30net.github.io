@@ -1,9 +1,9 @@
 # Sr. Network Systems Administrator
 
 ## Education						       		
-- M.S., Computer Information Technology| Purdue University Northwest (_May 2020_)	 			        		
-- B.S., Computer Information Technology | Purdue University Northwest (_May 2018_)
-- B.S., Information Technology | Mumbai University (_May 2015_)
+- M.S., Computer Information Technology - Purdue University Northwest (_May 2020_)	 			        		
+- B.S., Computer Information Technology - Purdue University Northwest (_May 2018_)
+- B.S., Information Technology - Mumbai University (_May 2015_)
 
 ## Work Experience
 ***Sr. Network Systems Administrator @ Extreme Networks (November 2023 - Present)***
